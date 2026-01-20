@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+cmake-build-debug/
+.idea/
+build/
+.DS_Store
