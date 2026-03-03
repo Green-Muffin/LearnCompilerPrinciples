@@ -1,0 +1,19 @@
+import dodoe
+
+class People()
+   var name is ""
+   var gender is ""
+end
+
+fun function() 
+   print("function...")
+end
+
+fun fn()
+   var p = People.new("xiaoming", "male")
+   p.sayHi()
+end
+
+
+var f = Family.new("wbf", "ls", "shine")
+f.sayHi()
