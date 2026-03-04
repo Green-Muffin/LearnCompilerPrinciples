@@ -29,7 +29,7 @@ public class Lox {
     if (hadError) System.exit(65);
   }
 
-   private static void runPrompt() throws IOException {
+  private static void runPrompt() throws IOException {
     InputStreamReader input = new InputStreamReader(System.in);
     BufferedReader reader = new BufferedReader(input);
 
